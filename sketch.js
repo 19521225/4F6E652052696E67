@@ -9,10 +9,7 @@ let img_width
 let img_pos_x
 let img_pos_y
 
-const post_path =
-    location.hostname === 'localhost' || location.hostname === '127.0.0.1'
-        ? ''
-        : '4F6E652052696E67/'
+const post_path = ''
 
 function preload() {
     sheet = loadImage(post_path + 'finnal.png')
